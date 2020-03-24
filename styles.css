@@ -1,0 +1,84 @@
+h1 {
+    
+   color: #313131; 
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    text-shadow: 
+}
+
+
+h2 {
+    
+  color: #00aeef; 
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
+    h3 {
+       color: #313131; 
+    font-family: 'Spartan', sans-serif;
+        
+    }
+
+body{
+    
+    
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+}
+
+/* unvisited link */
+a:link {
+  color: #FFFFFF;
+    padding-top: 10px 10%;
+}
+
+/* visited link */
+a:visited {
+  color: #00aeef;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f0f0f0;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.flexcontainer {
+   display:flex;
+    flex-direction: row;
+       flex-wrap: wrap;
+    width: 100%;
+        background-color: #313131;
+    border-top: 50px solid #f0f0f0;
+    border-bottom: 10px solid #f0f0f0;
+     color: #00aeef; 
+    font-family: 'Spartan', sans-serif;
+    padding-top: 40px; 
+    padding-right: 50px;
+}
+
+.flexitem {
+  width: 150px;
+    height: 50px;
+/*
+    background-color: #000000;
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+*/
+    padding: 150 px 80%;
+    margin: 4px;
+    text-align: center
+    
+}

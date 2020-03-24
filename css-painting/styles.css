@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+}
+
+.red{
+    width: 275px;
+    height:110px;
+    background: #FEECE1;
+}
+
+.yellow{
+    width: 275px;
+    height: 110px;
+    background:#9EA49B;
+
+}
+
+.black{
+    width: 100px;
+    height:220px;
+    background:#262925; 
+    
+}
+
+.Section-One{
+    display:inline-block
+}
