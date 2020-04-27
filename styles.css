@@ -1,23 +1,23 @@
 h1 {
     
    color: #313131; 
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    text-shadow: 
+ 
 }
 
 
 h2 {
     
   color: #00aeef; 
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 60px;
 }
 
     h3 {
        color: #313131; 
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
         
     }
 
@@ -64,7 +64,7 @@ a:active {
     border-top: 50px solid #f0f0f0;
     border-bottom: 10px solid #f0f0f0;
      color: #00aeef; 
-    font-family: 'Spartan', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 40px; 
     padding-right: 50px;
 }
