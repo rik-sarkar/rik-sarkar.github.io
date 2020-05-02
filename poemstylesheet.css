@@ -1,22 +1,25 @@
 
 body{
-    background-image: linear-gradient(#7B2716, #BC3116,#D0624B)
+    background-image: linear-gradient(#7B2716, #BC3116,#D0624B);
+        color: #FFDFD9; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 h1{
-    font-family: 'Gotu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-bottom: 5px solid #FFDFD9; 
     border-color: #FFDFD9;
 color: #FFDFD9
 }
 h2{
     color: #FFDFD9;
-    font-family: 'Gotu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     padding: 10px
 }
 h3{
     color:#FFDFD9;
-    font-family: 'Gotu', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 
     padding: 20px 50px 40px;
