@@ -4,6 +4,9 @@ h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 90px;
+    padding-top: 0px;
+     word-spacing: 40px;
+    margin-top: -180px;
 }
 
 
@@ -39,8 +42,9 @@ body{
     
 
 }
+   
+    
 
-}
 
 /* unvisited link */
 a:link {
