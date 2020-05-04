@@ -1,3 +1,14 @@
+body {
+
+
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
 h1 {
 
     color: #313131;
@@ -33,17 +44,11 @@ h4 {
     font-size: 90px;
 }
 
-body {
-
-
-    background-position: 80% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-
+.ralph {
+   margin-top: -600px;
+   
+    
 }
-
 
 a{
     color: #313131;
@@ -68,7 +73,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #00aeef;
+    color: #FFFFFF;
+    background-color: black;
 }
 
 /* selected link */
@@ -76,4 +82,5 @@ a:active {
     color: blue;
     
 }
+
 }
