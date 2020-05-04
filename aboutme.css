@@ -1,14 +1,16 @@
 h1 {
        color: #313131; 
     font-family: 'Poppins', sans-serif;
-    font-size: 200px;
-    margin-top: 90px;
+    font-size: 180px;
+    margin-top: 60px;
+    margin-left: 660px;
     margin-bottom: -30px;
+    line-height: 189px;
 }
 
 h2{
     color: #313131; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
    padding-left: 670px;
     padding-bottom: 89px;
@@ -17,7 +19,7 @@ h2{
 }
 img {
     
-    margin-top: -810px;
+    margin-top: -920px;
     
     
 }
