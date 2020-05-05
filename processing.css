@@ -1,8 +1,12 @@
 h1{
    text-align: center;
-    color: black;
+    color: white;
     padding-top: 10px 10%;
     font-family: 'Poppins', sans-serif;
     font-size: 70px; 
     
+}
+body{
+    
+    background-color: black;
 }

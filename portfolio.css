@@ -6,19 +6,17 @@ h1 {
     padding-bottom: 20px;
     margin-bottom: -90px;
 }
+h2 {
+    color: #313131; 
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 50px;
 
-circle {
-  fill: red;
 }
 
-/* PRESENTATIONAL STYLES */
-body {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-}
-
-svg {
-  width: 200px;
+p {
+    color: #313131; 
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 15px;
 }
