@@ -1,0 +1,264 @@
+/*header*/
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Poppins', sans-serif;
+	
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+    text-align: center;
+    
+}
+
+header {
+  background: #FF4F25;
+    
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {    
+    
+    float: center;
+    height: 21%;
+     width:32%;   
+  padding: 10px 0;
+}
+
+nav { 
+    margin-bottom: 40px;
+    margin-top: 0px;
+  float: center;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    
+  display: inline-block;
+
+  margin-left: 150px;
+  padding-top: 63px;
+
+  position: relative;
+}
+
+nav a {
+   
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+
+  position: absolute;
+  top: 50px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/*ANIMATION THIS IS THE CSS FOR ANIMATION*/
+
+body {
+    margin: 0;
+    margin-left: 0;
+    background-color: #CB2C2A;
+   
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 50px;
+}
+img{
+    width: auto;
+    height: auto;
+    
+}
+/* container */
+
+.flex-container {
+display: flex;
+  flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 210px;
+    justify-content: center;
+   
+  
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #FFFFFF; 
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 800;
+ 
+}
+
+/* 
+
+/* [2] Transition property for smooth transformation of images */
+.flex1 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex1:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex2 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex2:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex3 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex3:hover img {
+  transform: scale(1.1);
+}
+
+/*next container*/
+
+
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+   
+    
+    
+}
+
+/* 
+
+/* [2] Transition property for smooth transformation of images */
+.flex4 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex4:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex5 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex5:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex6 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex6:hover img {
+  transform: scale(1.1);
+}
+
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+   
+    
+    
+}
+
+/* 
+
+/* [2] Transition property for smooth transformation of images */
+.flex7 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex7:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex8 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex8:hover img {
+  transform: scale(1.1);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex9 img {
+  transition: transform 0.6s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex9:hover img {
+  transform: scale(1.1);
+}
+
+
+ 

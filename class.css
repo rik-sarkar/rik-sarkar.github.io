@@ -1,0 +1,333 @@
+/*header*/
+
+body {
+	margin: 0;
+	background: #FFF;
+	font-family: 'Poppins', sans-serif;
+	
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+    text-align: center;
+    
+}
+
+header {
+  background: #FF4F25;
+    
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {    
+    
+    float: center;
+    height: 22%;
+     width:32%;   
+  padding: 10px 0;
+}
+
+nav { 
+    margin-bottom: 40px;
+    margin-top: 0px;
+  float: center;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    
+  display: inline-block;
+
+  margin-left: 150px;
+  padding-top: 63px;
+
+  position: relative;
+}
+
+nav a {
+   
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+
+  position: absolute;
+  top: 50px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+/*tedx*/
+
+h1 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size:100px;
+    text-align: center;
+    line-height: 1;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size:90px;
+    text-align: center;
+
+}
+
+p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    padding-left: 300px;
+        padding-right:300px;
+    font-weight: 800;
+   
+}
+
+
+.birdflexbox3{
+    background: #DEE8F7;
+    padding-top: 10px;
+    padding-bottom: 50px;
+} 
+
+.flexbox{
+    height: 630px;
+    padding-top: 10px;
+    background-color: #FFFFFF;
+    padding-right: 400px;
+    
+}
+
+
+.birdflexbox4{
+    background: #DEE8F7;
+    padding-top: 10px;
+    padding-bottom:30px;
+    width: 120%;
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 23px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+       padding-bottom: 20px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+.birdflexbox3{
+    background: #DEE8F7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+
+.flexbox{
+    height: 30px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    padding-left: 350px;
+   
+    
+}
+
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 650px;
+    float: right;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+
+  right:-130;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.middle{
+  position: absolute;
+  top:650%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+/* Create four equal columns that sits next to each other */
+.columntwo {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 30px;
+    padding-left: 200px;
+    
+}
+
+.columntwo img {
+  margin-top: 23px;
+  justify-content: center;
+  width:100%;
+    
+}
+
+/*GRAPHIC DESIGN BUTTON*/
+
+.btnn{
+  position: relative;
+     text-align: center;
+  display: block;
+  color: black;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  margin: 30px 0;
+  border: 5px solid #21BEFF;
+  padding: 40px 30px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btnn::before{
+    
+  background: #21BEFF;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.8s ease;
+}
+
+
+.btn4::before{
+  width: 80%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.btn4:hover::before{
+     width: 50%;
+  height: 630%;
+    
+}
+
+

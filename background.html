@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="background.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="Images/ralph_small_trans_Srp_icon.ico">
+    <title>Background Design</title>
+
+
+</head>
+<header>
+    <div class="container">
+       <a href="index.html" target="_blank"> <img src="Images/LOGO%20TRANSPARENT.png" alt="logo" class="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+   
+    <h1> Background Design</h1>
+    
+  <div class="slideshow-container">
+      <h2> Tokyo, Japan </h2>
+      <div class="mySlides2">
+    <img src="Images/1.%20Tokyo%20Japan%20Background.png" style="width:100%">
+  </div>
+
+      <h2> Kolkata, India </h2>
+      
+  <div class="mySlides2">
+    <img src="Images/2.%20Kolkata%20India%20BG%20Design.jpg" style="width:100%">
+  </div>
+
+      <h2> "Scientist Trials" - Wizard Lair </h2>
+      
+  <div class="mySlides2">
+    <img src="Images/3.%20Magic%20v.%20Science%20BG%20Design.png" style="width:100%">
+  </div>
+      
+      <h2> San Francisco </h2>
+
+  <div class="mySlides2">
+    <img src="Images/4.%20San%20Francisco%20BG%20Design%201.png" style="width:100%">
+  </div>
+       <h2> "Electric-City" - Current Society Cityscape   </h2>
+     
+ <div class="mySlides2">
+    <img src="Images/5.%20Current%20Society%20Landscape%20BG%20Design.png" style="width:100%">
+  </div>
+      <h2> Underground Camp - Field View</h2>
+      
+       <div class="mySlides2">
+    <img src="Images/Resistance%20Guild%20Landscape%20BG%20Design%202.png" style="width:100%">
+  </div>
+     <h2> Underground Camp - Cave View</h2>
+       <div class="mySlides2">
+    <img src="Images/6.%20Resistance%20Guild%20Landscape%20BG%20Design%201.png" style="width:100%">
+  </div>
+      <h2> Garage Bunker - View 1 </h2>
+      
+       <div class="mySlides2">
+    <img src="Images/7.%20Garage-Bunker%20BG%20Design%201.png" style="width:100%">
+  </div>
+      <h2> Garage Bunker - View 2 </h2>
+      
+      
+      
+        <div class="mySlides2">
+    <img src="Images/8.%20Garage-Bunker%20BG%20Design%202.png" style="width:100%">
+  </div>
+     
+</div>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+    
+    <div class="middle">
+    
+      <a href="animation.html" class="btn btn3">Animation</a><br> <br>
+    
+    </div>
+    
+</html>
+    
+      

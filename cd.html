@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="cd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="shortcut icon" type="image/png" href="Images/ralph_small_trans_Srp_icon.ico">
+    <title>Character Design</title>
+
+
+</head>
+<header>
+    <div class="container">
+        <a href="index.html" target="_blank"> <img src="Images/LOGO%20TRANSPARENT.png" alt="logo" class="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <body>
+    
+    <h1>Character Design</h1>
+        
+       <div class="container">
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="Images/1.%20Panda%20Samurai%20Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="Images/2.%20Panda%20Sohei%20Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <img src="Images/3.%20Humble%20Bee_Character%20Sheet.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/4.%20Arturo%20the%20Archaeologist_Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/5.%20Ernesto%20the%20Llama_Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/6.%20Ralph%20Moriarty_Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/7.%20Marcelo%20Roth_Character%20Sheet.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/8.%20Abigail%20Carter_Character%20Sheet.png" style="width:100%">
+  </div>
+           
+           
+  <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="Images/9.%20Light%20Reaper_Character%20Sheet.png" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+ 
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Images/1.%20Panda%20Samurai%20Character%20Sheet.png" style="width:100%" onclick="currentSlide(1)" alt="Ralph Moriarty Character Sheet ">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/2.%20Panda%20Sohei%20Character%20Sheet.png" style="width:100%" onclick="currentSlide(2)" alt="t">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/3.%20Humble%20Bee_Character%20Sheet.png" style="width:100%" onclick="currentSlide(3)" alt="Abigail Carter Character Sheet">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/4.%20Arturo%20the%20Archaeologist_Character%20Sheet.png" style="width:100%" onclick="currentSlide(4)" alt="The Panda Samurai Character Sheet">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Images/5.%20Ernesto%20the%20Llama_Character%20Sheet.png" style="width:100%" onclick="currentSlide(5)" alt="The Panda Suhoi Character Sheet">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="Images/6.%20Ralph%20Moriarty_Character%20Sheet.png" style="width:100%" onclick="currentSlide(6)" alt="The Light Reapers Character Sheet">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="Images/7.%20Marcelo%20Roth_Character%20Sheet.png" style="width:100%" onclick="currentSlide(6)" alt="The Light Reapers Character Sheet">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="Images/8.%20Abigail%20Carter_Character%20Sheet.png" style="width:100%" onclick="currentSlide(6)" alt="The Light Reapers Character Sheet">
+    </div>
+      <div class="column">
+      <img class="demo cursor" src="Images/9.%20Light%20Reaper_Character%20Sheet.png" style="width:100%" onclick="currentSlide(6)" alt="The Light Reapers Character Sheet">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+        
+
+    <br> <br> <br> <br>
+    <div class="middle">
+    
+      <a href="animation.html" class="btn btn3">Animation</a>
+    
+    </div>
+    
+    </body>
+</html>

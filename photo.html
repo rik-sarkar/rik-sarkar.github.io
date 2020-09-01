@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="photo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="Images/ralph_small_trans_Srp_icon.ico">
+    <title>Photography</title>
+
+
+</head>
+<header>
+    <div class="container">
+        <a href="index.html" target="_blank"> <img src="Images/LOGO%20TRANSPARENT.png" alt="logo" class="logo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="contactme.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    
+    <h1> Photography </h1>
+    
+    <div class="birdflexbox">
+    <h2>Birdwatching</h2>
+            <h3>Even in the mundane lifestyle of quarantine, my subject matters find their way to me, and in this case, my backyard. Upon an amazing discovery by mother, we were astonished to find robin eggs in a nest, and grabbed my camera and spent weeks observing them to take the right photos at the right moments. </h3>
+        
+    </div>
+        <div class="best">     <img src="Images/Photography/Robin_Eggs%20(1%20of%201).jpg" style="width: 70%">
+</div>
+        <!-- The expanding image container -->
+
+        
+   <div class="header">
+ 
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="Images/Photography/Bird_nest%20(2%20of%206).jpg" style="width:100%">
+
+    
+  </div>
+  <div class="column">
+     <img src="Images/Photography/Bird_nest%20(4%20of%206).jpg" style="width: 100%">
+     
+  
+  </div>  
+  <div class="column">
+    <img src="Images/Photography/Bird_nest%20(6%20of%206).jpg" style="width:100%">
+
+  </div>
+    
+
+      
+    
+    
+    <div class="birdflexbox2">
+    <h2> Personal Photography</h2>
+  <h3>In my photography, my subject matter was focused on the objects and environments that I interact with everyday, but I wanted to capture the tone and setting I interact with it in particular, and observed these areas at different times of the day.</h3>
+  </div>
+    
+    
+        <!-- The expanding image container -->
+
+        
+ 
+
+<!-- Photo Grid -->
+<div class="row2"> 
+  <div class="column2">
+    <img src="Images/Photography/IMG_0625.JPG" style="width:100%">
+  <img src="Images/Photography/IMG_0620.JPG" style="width: 100%">
+    
+     
+  
+  </div>  
+  <div class="column2">
+    <img src="Images/Photography/IMG_0268.jpg" style="width: 100%">
+      <img src="Images/Photography/IMG_0206.jpg" style="width: 100%">
+
+  </div>
+    
+       
+    <div class="birdflexbox3">
+    <h2> Custard Sequence</h2>
+  <h3>For a photography project, I was tasked to create a sequence of an everyday task, and plan out and observe each step closely. </h3>
+  </div>
+    
+    
+     <div class="flexbox">
+    <div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0802.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0803.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0818.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0806.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0823.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0825.JPG" style="width:120%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/Photography/IMG_0826.JPG" style="width:120%">
+</div>
+
+
+        
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    
+    <div class="middle">
+    
+      
+      <a href="graphicdesign.html" class="btnn btn4">Graphic Design</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+</html>
+    
+   
