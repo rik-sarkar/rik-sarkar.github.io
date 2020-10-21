@@ -20,6 +20,7 @@ header {
     
 }
 
+
 header::after {
   content: '';
   display: table;
@@ -84,6 +85,9 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+/* END OF NORMAL HEADDER*/
+
+
 
 /*Portfolio*/
 h1{
@@ -99,21 +103,34 @@ body{
   background: #222;
 }
 
-
+h2{
+    
+      
+font-family: "Renogare-Regular";
+    font-size: 90px;
+    color: white;
+    padding-left: 150px;
+    letter-spacing: 1px;;
     
 }
-.middle{
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+    
+
+
 }
 /*index image*/
 
 img{
+    padding-top: 30px;
     height:280%;
      width:100%;   
+
 }
+    .indexhomepage {
+         width:auto;
+    height: 950px;
+    }
+
+/*gnore all this for now
 .button {
   background-color: #222;
     font: 'Poppins', sans-serif;
@@ -128,6 +145,9 @@ img{
   margin: 4px 2px;
   cursor: pointer;
   position: absolute;
-  bottom: -1950px;
-  left: 390px;
+ 
+ left: 400px;
 }
+*/
+
+
