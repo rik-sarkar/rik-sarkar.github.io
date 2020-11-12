@@ -1,8 +1,11 @@
+body{
+    background-color: #15202B;
+}
 h1{
     
     font-family:'Poppins', 'sans-serif';
     font-size: 150px;
-    color: black;
+    color: white;
     text-align: center;
 }
 h2{
@@ -180,7 +183,7 @@ transition: all 0.4s ease 0s;
 .flex1 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -194,7 +197,7 @@ transition: all 0.4s ease 0s;
 .flex2 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -208,7 +211,7 @@ transition: all 0.4s ease 0s;
 .flex3 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -221,7 +224,7 @@ transition: all 0.4s ease 0s;
 .flex4 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -234,7 +237,7 @@ transition: all 0.4s ease 0s;
 .flex5 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -248,7 +251,7 @@ transition: all 0.4s ease 0s;
 .flex6 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -262,7 +265,7 @@ transition: all 0.4s ease 0s;
 .flex7 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -275,7 +278,7 @@ transition: all 0.4s ease 0s;
 .flex8 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -288,7 +291,7 @@ transition: all 0.4s ease 0s;
 .flex9 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -301,7 +304,7 @@ transition: all 0.4s ease 0s;
 .flex10 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -315,7 +318,7 @@ transition: all 0.4s ease 0s;
 .flex11 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -328,7 +331,7 @@ transition: all 0.4s ease 0s;
 .flex12 img {
   transition: transform 0.6s ease;
      border: solid;
-    border-color: #FFB255;
+    border-color: #FFFFFF;
     border-width: 6px;
 }
 
@@ -336,8 +339,3 @@ transition: all 0.4s ease 0s;
   transform: scale(1.1);
     
 }
-.rian{
-    padding-left: 20px;
-}
-
-
