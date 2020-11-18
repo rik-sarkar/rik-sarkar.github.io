@@ -1,5 +1,9 @@
 body{
+    
     background-color: #15202B;
+   
+    background-image: url('Images/expl.gif');
+    background-size: 50%;
 }
 h1{
     
@@ -8,6 +12,8 @@ h1{
     color: white;
     text-align: center;
     padding-top: 40px;
+     text-shadow: 4px 4px #ff0000;
+   
 }
 h2{
     
