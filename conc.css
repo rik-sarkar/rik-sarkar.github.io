@@ -3,14 +3,14 @@ h1{
     font-family:'Poppins', 'sans-serif';
     font-size: 150px;
     padding-top: 100px;
-    color: black;
+    color: white;
     text-align: center;
 }
 h2{
     
     font-family:'Poppins', 'sans-serif';
     font-size: 50px;
-    color: black;
+    color: white;
    text-align: center;
 }
 h3{
@@ -42,20 +42,20 @@ h6{
     font-size: 60px;
     padding-top: 100px;
     padding-left: 20px;
-    color: black;
+    color: white;
 }
 h7{  
     
     font-family:'Poppins', 'sans-serif';
     font-size: 50px;
-    color: black;
+    color: white;
    text-align: center;
     
 }
 h8{
      font-family:'Poppins', 'sans-serif';
     font-size: 30px;
-    color: black;
+    color: white;
     text-align: center;
 }
 p{
@@ -69,7 +69,7 @@ p{
 em{
     color:  #FFB255;
     font-weight: bold; 
-    font-size: 100px;
+   
     text-align: center;
 }
 
@@ -407,7 +407,8 @@ transition: all 0.4s ease 0s;
     width:100%;
     height:10px;
     margin-top:-5px;
-    background: black;
+    background: white
+        ;
     z-index: -1;
     position: absolute;
     top:50%;
