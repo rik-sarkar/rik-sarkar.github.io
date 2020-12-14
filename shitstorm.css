@@ -359,7 +359,7 @@ transition: all 0.4s ease 0s;
 }
 
 .circle {
-    background-color: #15202B;
+   background-color: black;;
     border: 2px black solid;
     width: 80px;
     height: 80px;

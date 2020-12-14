@@ -96,18 +96,17 @@ h2{
     
 
 }
-/*don't use h3*/
+
 h3{
      font-family: "Roboto", sans-serif;
-    font-size: 24px;
+    font-size: 30px;
      text-align: center;
-    padding: 0px 300px 0px 300px;
 }
 
 .birdflexbox{
     background: #DEE8F7;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 300px 50px 300px;
+    
 } 
 * {
   box-sizing: border-box;
@@ -127,7 +126,7 @@ h3{
   -ms-flex: 33%; /* IE10 */
   flex: 33%;
   max-width: 33%;
-  padding: 0 4px;
+  padding: 4px 4px;
 }
 
 .column img {
@@ -269,7 +268,7 @@ img {vertical-align: middle;}
 /* Position the "next button" to the right */
 .next {
 
-  right:-130;
+  right:-455;
   border-radius: 3px 0 0 3px;
 }
 

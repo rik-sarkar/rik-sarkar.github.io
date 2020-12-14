@@ -1,0 +1,195 @@
+/*header*/
+
+body {
+	margin: 0;
+	background: #FFF;
+	font-family: 'Poppins', sans-serif;
+	
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+    text-align: center;
+    
+}
+
+header {
+  background: #FF4F25;
+    
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {    
+    
+    float: center;
+    height: 22%;
+     width:32%;   
+  padding: 10px 0;
+}
+
+nav { 
+    margin-bottom: 40px;
+    margin-top: 0px;
+  float: center;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+    
+  display: inline-block;
+
+  margin-left: 150px;
+  padding-top: 63px;
+
+  position: relative;
+}
+
+nav a {
+   
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+
+  position: absolute;
+  top: 50px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/*END OF HEADER*/
+
+h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 260px;
+}
+h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 100px;
+    font-weight: 800;
+}
+
+h3{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+
+h4{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 100px;
+    padding-right: 700px;
+    font-weight: 800;
+}
+h5{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding:0 300 0 300;
+    font-weight: 800;
+
+}
+
+
+
+.flexbox{
+    height: 500px;
+    background-color: #D8E3E7; 
+
+}
+
+.flexbox2{
+    height: 600px;
+    background-color: #D8E3E7;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 10px 10px 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 20px 10px;
+}
+
+.column img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 90%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.video{
+    padding: 40px 0 40px 0;
+}

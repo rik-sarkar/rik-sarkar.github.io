@@ -114,21 +114,15 @@ font-family: "Renogare-Regular";
     
 }
     
+.indexhomepage{
+  background-image: url(Images/homepage.png);
+    background-size: cover;
+    
+    
+}
 
 
 }
-/*index image*/
-
-img{
-    padding-top: 30px;
-    height:280%;
-     width:100%;   
-
-}
-    .indexhomepage {
-         width:auto;
-    height: 950px;
-    }
 
 /*gnore all this for now
 .button {
