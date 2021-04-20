@@ -121,6 +121,7 @@ h1 {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-size: 140px;
+    padding-left: 50px;
     text-align: center;
 }
 
@@ -140,3 +141,22 @@ h3 {
     
 }
 
+h2 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    line-height: 1.6;
+    padding-left: 670px;
+    padding-right: 100px;
+    padding-top: -900px;
+
+}
+
+.imageee {
+margin-left: 20px;
+filter: drop-shadow(10px 5px 70px #000000);
+
+}
+.empty{
+    height: 100px;
+}
