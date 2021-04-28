@@ -17,22 +17,20 @@ body {
 
 header {
   background: #FF4F25;
-    
+    font-family: 'SF UI Display ExtraLight', sans-serif;
 }
-
 header::after {
   content: '';
   display: table;
   clear: both;
 }
-
 .logo {    
     
     float: center;
-    height: 22%;
-     width:32%;   
-  padding: 10px 0;
+   width: 35%;
+  padding: 10px 0 0 80px;
 }
+
 
 nav { 
     margin-bottom: 40px;
@@ -86,16 +84,16 @@ nav a:hover::before {
 }
 h1{
     color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 70px;
+      font-family: 'Kenyan Coffee Regular', sans-serif;
+    font-size: 150px;
     text-align: center;
     padding-left: 200px;
     padding-right: 260px;
 }
 h2{
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+   font-family: 'SF UI Display ExtraLight', sans-serif;
+    font-size: 25px;
     text-align: center;
     padding-left: 180px;
     padding-right: 180px;
@@ -106,15 +104,15 @@ h2{
 
 h3{
     color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 65px;
+  font-family: 'Kenyan Coffee Regular', sans-serif;
+    font-size: 50px;
     text-align: center;
 }
 
 h4{
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-family: 'SF UI Display ExtraLight', sans-serif;
+    font-size: 25px;
     text-align: left;
     margin-left: 100px;
     padding-right: 700px;
@@ -122,8 +120,8 @@ h4{
 }
 h5{
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+   font-family: 'SF UI Display ExtraLight', sans-serif;
+    font-size: 25px;
     text-align: center;
     padding:0 300 0 300;
     font-weight: 800;
@@ -222,13 +220,6 @@ img {vertical-align: middle;}
 }
 
 
-.middle{
-  position: absolute;
-  top: 495%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -276,49 +267,50 @@ img {vertical-align: middle;}
 }
 /*GRAPHIC DESIGN BUTTON*/
 
+}
+
 .middle{
   position: absolute;
-  top: 435%;
+  top: 495%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-/*GRAPHIC DESIGN BUTTON*/
+
 
 .btnn{
   position: relative;
      text-align: center;
   display: block;
-  color: black;
-  font-size: 80px;
-  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 70px;
+  font-family: 'SF UI Display ExtraLight', sans-serif;
   text-decoration: none;
   margin: 30px 0;
-  border: 5px solid #21BEFF;
-  padding: 0px 10px;
+  border: 5px solid #FF4F25;
+  padding: 30px 60px;
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
 }
 .btnn::before{
-    
-  background: #21BEFF;
+  background: #FF4F25;
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: -1;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease;
+    color: white;
 }
-
 
 .btn4::before{
-  width: 80%;
+  width: 100%;
   height: 0%;
-  transform: translate(-50%,-50%) rotate(45deg);
+  transform: translate(-50%,-50%) rotate(-45deg);
 }
 .btn4:hover::before{
-     width: 50%;
-  height: 630%;
-    
+    width: 800%;
+  height:850%;
 }
+

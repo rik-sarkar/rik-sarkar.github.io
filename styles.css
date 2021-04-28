@@ -15,9 +15,10 @@ body {
     
 }
 
+
 header {
   background: #FF4F25;
-    
+    font-family: 'SF UI Display ExtraLight', sans-serif;
 }
 
 
@@ -30,9 +31,8 @@ header::after {
 .logo {    
     
     float: center;
-    height: 21%;
-     width:32%;   
-  padding: 10px 0;
+   width: 35%;
+  padding: 10px 0 0 80px;
 }
 
 nav { 

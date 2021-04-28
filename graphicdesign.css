@@ -17,7 +17,7 @@ body {
 
 header {
   background: #FF4F25;
-    
+    font-family: 'SF UI Display ExtraLight', sans-serif;
 }
 
 header::after {
@@ -29,10 +29,10 @@ header::after {
 .logo {    
     
     float: center;
-    height: 21%;
-     width:32%;   
-  padding: 10px 0;
+   width: 35%;
+  padding: 10px 0 0 80px;
 }
+
 
 nav { 
     margin-bottom: 40px;
@@ -86,11 +86,21 @@ nav a:hover::before {
 }
 
 /*Portfolio*/
+
+/*Portfolio*/
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #222;
+    padding-top: -60px;
+}
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 140px;
     text-align: center;
-    color: white;
+    color: #222;
+    
     padding-top: -60px;
 }
 body{
@@ -148,9 +158,8 @@ a{
     text-decoration: none;
 }
 p{
-    font-size: 28px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-size: 25px;
+   font-family: 'SF UI Display ExtraLight', sans-serif;
     color: #FFFFFF; 
     text-align: center;
     letter-spacing: 2px;
@@ -162,9 +171,8 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex1 img {
   transition: transform 0.6s ease;
-     border: solid;
-    border-color: white;
-    border-width: 6px;
+     border: none;
+    
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -175,9 +183,8 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex2 img {
   transition: transform 0.6s ease;
-    border: solid;
-    border-color: white;
-    border-width: 6px;
+    border: none;
+   
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -189,9 +196,8 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex3 img {
   transition: transform 0.6s ease;
-     border: solid;
-    border-color: white;
-    border-width: 6px;
+     border: none;
+   
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -221,9 +227,9 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex4 img {
   transition: transform 0.6s ease;
-     border: solid;
-    border-color: white;
-    border-width: 6px;
+     border: none;
+    
+    
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -234,9 +240,8 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex5 img {
   transition: transform 0.6s ease;
-     border: solid;
-    border-color: white;
-    border-width: 6px;
+     border: none;
+   
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -247,9 +252,8 @@ p{
 /* [2] Transition property for smooth transformation of images */
 .flex6 img {
   transition: transform 0.6s ease;
-     border: solid;
-    border-color: white;
-    border-width: 6px;
+     border: none;
+    
 }
 
 /* [3] Finally, transforming the image when container gets hovered */

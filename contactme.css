@@ -17,7 +17,7 @@ body {
 
 header {
   background: #FF4F25;
-    
+    font-family: 'SF UI Display ExtraLight', sans-serif;
 }
 
 header::after {
@@ -29,9 +29,8 @@ header::after {
 .logo {    
     
     float: center;
-    height: 21%;
-     width:32%;   
-  padding: 10px 0;
+   width: 35%;
+  padding: 10px 0 0 80px;
 }
 
 nav { 
@@ -112,6 +111,7 @@ ul{
     list-style: none;
     display: inline;
   padding-left:400px;
+    transform: translate(-50%,-50%)
     
    
 }
@@ -125,12 +125,27 @@ h1 {
     text-align: center;
 }
 
+h4 {
+    color: #FFFFFF;
+   font-family: 'Kenyan Coffee Regular', sans-serif;
+    font-size: 120px;
+    text-align: center;
+    word-spacing: 3px;
+    
+}
 p {
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'SF UI Display ExtraLight', sans-serif;
     font-size: 50px;
     text-align: center;
-    font-weight: 800;
+    
+}
+h5 {
+    color: #FFFFFF;
+   font-family: 'SF UI Display ExtraLight', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
 }
 h3 {
     color: white;
@@ -141,20 +156,33 @@ h3 {
     
 }
 
+
 h2 {
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SF UI Display ExtraLight', sans-serif;
     font-size: 27px;
     line-height: 1.6;
     padding-left: 670px;
     padding-right: 100px;
-    padding-top: -900px;
+    padding-top: -400px;
+    text-align: left;
 
+}
+h6 {
+    color: #FFFFFF;
+    font-family: 'Kenyan Coffee Regular', sans-serif;
+    font-size: 50px;
+    line-height: 1.6;
+    padding-left: 670px;
+    padding-right: 100px;
+    padding-top: -400px;
+    text-align: left;
 }
 
 .imageee {
 margin-left: 20px;
 filter: drop-shadow(10px 5px 70px #000000);
+    padding-top: -800px;
 
 }
 .empty{
