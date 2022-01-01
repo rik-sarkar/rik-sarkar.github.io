@@ -85,7 +85,7 @@ nav a:hover::before {
 h1{
     color: black;
       font-family: 'Kenyan Coffee Regular', sans-serif;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     padding-left: 200px;
     padding-right: 260px;
@@ -312,5 +312,10 @@ img {vertical-align: middle;}
 .btn4:hover::before{
     width: 800%;
   height:850%;
+}
+
+.spread{
+    padding: 40px;
+    text-align: center;
 }
 
