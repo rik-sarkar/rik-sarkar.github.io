@@ -1,0 +1,376 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*TEXT*/
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: "Avenir LT Std", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Avenir LT Std", sans-serif;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+
+/* Description Font is H2*/
+
+h2{
+  font-family: "Avenir LT Std", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width:65%;
+    font-weight: normal;
+}
+
+h3{
+  font-family: "Avenir LT Std", sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    width:65%;
+    font-weight: normal;
+}
+ 
+
+h4{
+  font-family: "Avenir LT Std", sans-serif;
+    color: #00ffff;
+    font-size: 30px;
+    text-align: center;
+    width:65%;
+    font-weight: normal;
+}
+
+h5{
+  font-family: "Avenir LT Std", sans-serif;
+    color: #ff00ff;
+    font-size: 30px;
+    text-align: center;
+    width:65%;
+    font-weight: normal;
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Avenir LT Std";
+}
+
+/* NAVIGATION BAR SETTINGS */
+
+nav {
+    height: 30vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Avenir LT Std", sans-serif;
+    color: #6F6F6F;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    padding: 0 10px;
+    
+}
+
+nav a:before,
+nav a:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #ff00ff;
+    transition: 0.4s;
+}
+
+nav a:after {
+    left: 0;
+    bottom: -10px;
+    background-color: #00ffff;
+}
+
+nav a:before {
+    right: 0;
+    top: -10px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav a:hover:after,
+nav a:hover:before {
+    width: 100%;
+    
+}
+
+
+/*THUMBNAILS */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex1 img {
+    cursor: pointer;
+    background-image: url(Images/1.%20tedx%20logo.png);
+
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex1:hover img {
+    background-image: url(Images/tedx%20hover.gif);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.flex2 img {
+    cursor: pointer;
+    background-image: url(Images/2.%20viaje%20logo.png);
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.flex2:hover img {
+    background-image: url(Images/viaje%20logo.gif);
+}
+
+/*THUMBNAILS - 2*/
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex3 img {
+    cursor: pointer;
+    background-image: url(Images/3.%20eagleton%20logo.png);
+}
+
+.flex3:hover img {
+    background-image: url(Images/eagleton%20logo.gif);
+}
+
+.flex4 img {
+    cursor: pointer;
+    background-image: url(Images/5.%20bfa%20logo.png);
+
+}
+
+.flex4:hover img {
+    background-image: url(Images/bfa%20logo.gif);
+}
+
+.flex5 img {
+    cursor: pointer;
+    background-image: url(Images/4.%20freelance%20logo.png);
+}
+
+.flex5:hover img {
+    background-image: url(Images/freelance%20logo.gif);
+}
+
+/* BACK TO PORTFOLIO BUTTON */
+
+/*GRAPHIC DESIGN BUTTON*/
+
+}
+.back2button{
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+
+
+.btnn{
+  position: relative;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Avenir LT Std',
+  sans-serif;
+  text-decoration: none;
+  margin: 30px 0;
+  border: 7px solid #ff00ff;
+  padding: 30px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  }
+.btnn::before{
+  background: #ff00ff;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+    color: white;
+}
+
+.btn4::before{
+  width: 100%;
+  height: 0%;
+  transform: translate(-50%,-50%) rotate(-45deg);
+}
+.btn4:hover::before{
+    width: 800%;
+  height:925%;
+}
+
+
+
+
+/*TEDx Page*/
+
+.display1{
+    padding: 50px 0px 0px 0px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.display1 img {
+    transition: transform 0.6s ease;
+    
+}
+.display1:hover img {
+    transform: scale(1.03);
+}
+.display2{
+    padding: 50px 0px 0px 0px;
+    animation: bluefadeIn 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-timing-function:ease-out;
+}
+
+.display2 img {
+    transition: transform 0.6s ease;
+    
+}
+.display2:hover img {
+    transform: scale(1.03);
+}
+
+.display3{
+    padding: 30px 0px 0px 0px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-delay: 4s;
+    animation-timing-function:ease-out;
+}
+
+.display3 img {
+    transition: transform 0.6s ease;
+    
+}
+.display3:hover img {
+    transform: scale(1.03);
+}
+
+.display4{
+    padding: 30px 0px 0px 0px;
+    animation: bluefadeIn 4s;
+    position: relative;
+    animation-delay: 6s;
+    animation-timing-function:ease-out;
+}
+
+.display4 img {
+    transition: transform 0.6s ease;
+    
+}
+.display4:hover img {
+    transform: scale(1.03);
+}
+@keyframes pinkfadeIn {
+  0% { opacity: 0; right:-70px }
+  100% { opacity: 1; right:0px }
+}
+
+@keyframes bluefadeIn {
+  0% { opacity: 0; left:70px }
+  100% { opacity: 1; left:0px }
+}
+
+/*EAGLE BOYS CSS*/
+
+
+.eagledisplay1{
+    padding: 50px 0px 0px 0px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.eagledisplay1 img {
+    transition: transform 0.6s ease;
+    
+}
+
+.eagledisplay2{
+    padding: 50px 0px 0px 0px;
+    animation: bluefadeIn 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-timing-function:ease-out;
+}
+
+.eagledisplay2 img {
+    transition: transform 0.6s ease;
+    
+}
+
+/*CONTACT*/
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #FFF;
+  padding: 20px; 
+  width: 80vw;
+  height: 1180px;  
+}
