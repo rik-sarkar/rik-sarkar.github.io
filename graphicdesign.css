@@ -162,12 +162,12 @@ nav a:hover:before {
 /* [2] Transition property for smooth transformation of images */
 .flex2 img {
     cursor: pointer;
-    background-image: url(Images/2.%20viaje%20logo.png);
+    background-image: url(Images/2.rrxlogo.png);
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .flex2:hover img {
-    background-image: url(Images/viaje%20logo.gif);
+    background-image: url(Images/RealityRX.gif);
 }
 
 /*THUMBNAILS - 2*/
@@ -184,21 +184,21 @@ nav a:hover:before {
 
 .flex3 img {
     cursor: pointer;
-    background-image: url(Images/3.%20eagleton%20logo.png);
+    background-image: url(Images/2.%20viaje%20logo.png);
 }
 
 .flex3:hover img {
-    background-image: url(Images/eagleton%20logo.gif);
+    background-image: url(Images/viaje%20logo.gif);
 }
 
 .flex4 img {
     cursor: pointer;
-    background-image: url(Images/5.%20bfa%20logo.png);
+    background-image: url(Images/3.%20eagleton%20logo.png);
 
 }
 
 .flex4:hover img {
-    background-image: url(Images/bfa%20logo.gif);
+    background-image: url(Images/eagleton%20logo.gif);
 }
 
 .flex5 img {
