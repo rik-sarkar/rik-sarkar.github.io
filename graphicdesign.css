@@ -14,7 +14,7 @@
 }
 
 /*TEXT*/
-
+  
 body {
     background-color: black;
 }
@@ -56,7 +56,7 @@ h3{
 
 h4{
   font-family: "Avenir LT Std", sans-serif;
-    color: #00ffff;
+    color: black;
     font-size: 30px;
     text-align: center;
     width:65%;
@@ -65,7 +65,7 @@ h4{
 
 h5{
   font-family: "Avenir LT Std", sans-serif;
-    color: #ff00ff;
+    color: black;
     font-size: 30px;
     text-align: center;
     width:65%;
@@ -167,7 +167,8 @@ nav a:hover:before {
 
 /* [3] Finally, transforming the image when container gets hovered */
 .flex2:hover img {
-    background-image: url(Images/RealityRX.gif);
+    background-image: url(Images/falcon.gif);
+    
 }
 
 /*THUMBNAILS - 2*/
@@ -203,11 +204,12 @@ nav a:hover:before {
 
 .flex5 img {
     cursor: pointer;
-    background-image: url(Images/4.%20freelance%20logo.png);
+    background-image: url(Images/animation_logo.png);
 }
 
 .flex5:hover img {
-    background-image: url(Images/freelance%20logo.gif);
+    background-image: url(Images/anim%20logo%20hover.gif);
+    
 }
 
 /* BACK TO PORTFOLIO BUTTON */
@@ -265,7 +267,7 @@ nav a:hover:before {
 /*TEDx Page*/
 
 .display1{
-    padding: 50px 0px 0px 0px;
+    padding: 30px 50px 30px 50px;
     animation: pinkfadeIn 4s;
     position: relative;
     animation-timing-function:ease-out;
@@ -280,7 +282,7 @@ nav a:hover:before {
     transform: scale(1.03);
 }
 .display2{
-    padding: 50px 0px 0px 0px;
+    padding: 30px 0px 30px 100px;
     animation: bluefadeIn 4s;
     position: relative;
     animation-delay: 2s;
@@ -296,7 +298,7 @@ nav a:hover:before {
 }
 
 .display3{
-    padding: 30px 0px 0px 0px;
+    padding: 30px 50px 30px 50px;
     animation: pinkfadeIn 4s;
     position: relative;
     animation-delay: 4s;
@@ -312,7 +314,7 @@ nav a:hover:before {
 }
 
 .display4{
-    padding: 30px 0px 0px 0px;
+    padding: 30px 50px 30px 50px;
     animation: bluefadeIn 4s;
     position: relative;
     animation-delay: 6s;
@@ -335,6 +337,41 @@ nav a:hover:before {
   0% { opacity: 0; left:70px }
   100% { opacity: 1; left:0px }
 }
+
+/*FALCON*/
+
+.falcon1{
+    padding:20px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.falcon1 img {
+    transition: transform 0.6s ease;
+    
+}
+.falcon1:hover img {
+    transform: scale(1.03);
+}
+
+.falcon2{
+    padding: 20px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.falcon2 img {
+    transition: transform 0.6s ease;
+    
+}
+.falcon2:hover img {
+    transform: scale(1.03);
+}
+
 
 /*EAGLE BOYS CSS*/
 
@@ -365,6 +402,55 @@ nav a:hover:before {
     
 }
 
+/*MOTION GRAPHICS*/
+
+.everest1{
+    padding: 20px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.everest1 img {
+    transition: transform 0.6s ease;
+    
+}
+.everest1:hover img {
+    transform: scale(1.03);
+}
+
+.payer2{
+    padding: 20px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.payer2 img {
+    transition: transform 0.6s ease;
+    
+}
+.payer2:hover img {
+    transform: scale(1.03);
+}
+
+.medicare3{
+    padding: 0px;
+    animation: pinkfadeIn 4s;
+    position: relative;
+    animation-timing-function:ease-out;
+     
+    
+}
+.medicare3 img {
+    transition: transform 0.6s ease;
+    
+}
+.medicare3:hover img {
+    transform: scale(1.03);
+}
 /*CONTACT*/
 
 #rcorners1 {
@@ -372,5 +458,6 @@ nav a:hover:before {
   background: #FFF;
   padding: 20px; 
   width: 80vw;
-  height: 1180px;  
+  height: 950px;
+    padding-top: 30px;
 }
